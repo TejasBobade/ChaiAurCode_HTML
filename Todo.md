@@ -117,4 +117,3 @@ Tips for Learning:
 4. Test your pages in different browsers
 5. Comment your code to explain complex sections
 
-Would you like me to provide a specific starter project with detailed requirements to begin with? We could start with the Personal Profile Page and I can break it down into smaller, manageable steps.

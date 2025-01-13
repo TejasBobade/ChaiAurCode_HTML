@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Basic Tags</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Document Structure & Basic Tags
+        (<!DOCTYPE>, <html>, <head>, <body>)
+        (<p>, <h1>-<h6>, <br>, <hr>)
+        (<strong>, <em>, <mark>, <sub>, <sup>)
+    -->
+    <h1>This is all major tags we use in HTML</h1><br><hr>
+    <p>This is a paragraph tag</p>
+    <strong>This will make the sentence presence strong.</strong>
+    <em>This will write the sentence in different font type.</em>
+    <mark>Give the mark to the sentence This is marked in yellow color.</mark>
+    <p>4 <sup>2</sup></p>
+    <p>5 <sub>5</sub></p>
+
+    <!-- Lists & Links 
+        (<ul>, <li>)
+        (<ol>, <li>)
+        (<a href="">)
+        (using #id)
+    -->
+    <ul id="nav">
+        <li>Link1</li>
+        <li>Link2</li>
+    </ul>
+    <ol id="order_list">
+        <li>Ordered1</li>
+        <li>Ordered2</li>
+    </ol>
+    <a href="http://google.com" id="google_site">Google</a><br>
+
+    <!-- Images & Multimedia
+        (<img>) -> (src, alt, width, height)
+        (<audio>)
+        (<video>)
+    -->
+    <img src="./Discover another planet -2.png" alt="Magical Planet" width="100%" height="800"><br>
+    <audio src="../relaxing-guitar-loop-v5-245859.mp3" controls muted autoplay></audio><br>
+    <video src="../08_caesar_cipher.mp4" controls muted autoplay width="300" height="300"></video>
+
+    <!-- Tables
+        (<table>, <tr>, <td>)
+        (<th>)
+        (colspan, rowspan)
+        (<thead>, <tbody>, <tfoot>)
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Om</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Om</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Om</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Semantic HTML
+        (<header>)
+        (<nav>)
+        (<main>)
+        (<section>)
+        (<article>)
+        (<aside>)
+        (<footer>)
+    -->
+    <section>
+        <header>
+            <nav>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article></article>
+            <aside></aside>
+        </main>
+        <footer>
+            <p>This is footer</p>
+        </footer>
+    </section><br>
+
+    <!-- Basic Form Elements -->
+     <form action="" method="GET">
+        <!-- Text -->
+        <label for="fname">First Name</label><br>
+        <input type="text" name="fname" id="fname" placeholder="First Name"><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" name="lname" id="lname" placeholder="Last Name"><br>
+        <!-- Email -->
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="Luffy@ai.com" required><br>
+        <!-- Password -->
+        <label for="pass">Password</label><br>
+        <input type="password" name="pass" id="pass" required placeholder="Password"><br>
+        <!-- Submit button -->
+        <button type="submit">Submit</button><br>
+        <!-- Radio Button -->
+        <label for="radio">HTML</label>
+        <input type="radio" name="radio" id="radio"><br>
+        <!-- Checkboxs -->
+        <label for="check">C++</label>
+        <input type="checkbox" name="check" id="check"><br>
+        <!-- Select dropdown -->
+        <select name="drop" id="drop">
+        <option value="drop">React</option>
+        <option value="drop">JS</option>
+        </select><br>
+        <!-- Textarea -->
+         <label for="message">Message</label><br>
+        <textarea name="message" id="message" rows="10" cols="50" placeholder="Write your message here."></textarea>
+     </form>
+</body>
+</html>
